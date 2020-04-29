@@ -4,6 +4,7 @@
 
 #include <gtest/gtest.h>
 #include "Practice.h"
+#include <iostream>
 
 class PracticeTest : public ::testing::Test
 {
@@ -48,4 +49,15 @@ TEST(PracticeTest, is_not_palindrome5)
     Practice obj;
     bool actual = obj.isPalindrome(" a  ");
     ASSERT_FALSE(actual);
+}
+
+TEST(PracticeTest, Sort_decending)
+{
+    Practice obj;
+    int first = 1;
+    int second = 3;
+    int third = 2;
+    obj.sortDescending(first,second,third);
+    ASSERT_TRUE(first > second);
+    
 }
