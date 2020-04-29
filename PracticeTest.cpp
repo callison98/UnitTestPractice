@@ -61,3 +61,25 @@ TEST(PracticeTest, Sort_decending)
     ASSERT_TRUE(first > second);
     
 }
+
+TEST(PracticeTest, Sort_decending2)
+{
+    Practice obj;
+    int first = 1;
+    int second = 3;
+    int third = 5;
+    obj.sortDescending(first,second,third);
+    ASSERT_TRUE(first > third);
+    
+}
+
+TEST(PracticeTest, Sort_decending2)
+{
+    Practice obj;
+    int first = -1;
+    int second = -9;
+    int third = -5;
+    obj.sortDescending(first,second,third);
+    ASSERT_FALSE(third > first);
+    
+}
