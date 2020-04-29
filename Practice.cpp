@@ -42,7 +42,7 @@ bool Practice::isPalindrome(string input)
   }
   for(int i=0; i < input.size()/2; i++)
   {
-    if( input[i] != input[input.size()-1-i] )
+    if( input[i] != input[input.size()-1-i]  || input.size() == 0)
       return false;
   }
   return true;
