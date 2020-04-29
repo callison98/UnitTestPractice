@@ -25,5 +25,33 @@ TEST(PracticeTest, is_not_palindrome)
 {
     Practice obj;
     bool actual = obj.isPalindrome("abc");
-    ASSERT_TRUE(actual);
+    ASSERT_FALSE(actual);
+}
+
+TEST(PracticeTest, is_not_palindrome)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome(" ");
+    ASSERT_FALSE(actual);
+}
+
+TEST(PracticeTest, is_not_palindrome)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome(NULL);
+    ASSERT_FALSE(actual);
+}
+
+TEST(PracticeTest, is_not_palindrome)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("abababs");
+    ASSERT_FALSE(actual);
+}
+
+TEST(PracticeTest, is_not_palindrome)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome(" a ");
+    ASSERT_FALSE(actual);
 }
