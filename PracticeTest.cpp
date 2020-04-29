@@ -35,12 +35,6 @@ TEST(PracticeTest, is_not_palindrome2)
     ASSERT_TRUE(actual);
 }
 
-TEST(PracticeTest, is_not_palindrome3)
-{
-    Practice obj;
-    bool actual = obj.isPalindrome(NULL);
-    ASSERT_TRUE(actual);
-}
 
 TEST(PracticeTest, is_not_palindrome4)
 {
