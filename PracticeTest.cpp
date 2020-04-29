@@ -32,14 +32,14 @@ TEST(PracticeTest, is_not_palindrome2)
 {
     Practice obj;
     bool actual = obj.isPalindrome(" ");
-    ASSERT_FALSE(actual);
+    ASSERT_TRUE(actual);
 }
 
 TEST(PracticeTest, is_not_palindrome3)
 {
     Practice obj;
     bool actual = obj.isPalindrome(NULL);
-    ASSERT_FALSE(actual);
+    ASSERT_TRUE(actual);
 }
 
 TEST(PracticeTest, is_not_palindrome4)
@@ -52,6 +52,6 @@ TEST(PracticeTest, is_not_palindrome4)
 TEST(PracticeTest, is_not_palindrome5)
 {
     Practice obj;
-    bool actual = obj.isPalindrome(" a ");
+    bool actual = obj.isPalindrome(" a  ");
     ASSERT_FALSE(actual);
 }
