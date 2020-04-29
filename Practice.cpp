@@ -42,7 +42,6 @@ bool Practice::isPalindrome(string input)
     }
   }
 
-  input = remove_if(input.begin(), input.end(), isspace);
   for(int i=0; i < input.size()/2; i++)
   {
     if( input[i] != input[input.size()-1-i])
