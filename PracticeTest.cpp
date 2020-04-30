@@ -73,7 +73,7 @@ TEST(PracticeTest, Sort_decending2)
     
 }
 
-TEST(PracticeTest, Sort_decending2)
+TEST(PracticeTest, Sort_decending3)
 {
     Practice obj;
     int first = -1;
