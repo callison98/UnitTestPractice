@@ -93,7 +93,7 @@ TEST(PracticeTest, Sort_decending4)
     ASSERT_TRUE(second > third);
     
 }
-TEST(PracticeTest, Sort_decending4)
+TEST(PracticeTest, Sort_decending5)
 {
     Practice obj;
     int first = 3;
