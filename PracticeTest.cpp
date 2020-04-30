@@ -90,6 +90,6 @@ TEST(PracticeTest, Sort_decending4)
     int second = 1;
     int third = 9;
     obj.sortDescending(first,second,third);
-    ASSERT_FALSE(second > third);
+    ASSERT_TRUE(second > third);
     
 }
