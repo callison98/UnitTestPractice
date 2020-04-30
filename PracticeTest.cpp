@@ -83,3 +83,14 @@ TEST(PracticeTest, Sort_decending3)
     ASSERT_FALSE(third > first);
     
 }
+
+TEST(PracticeTest, Sort_decending4)
+{
+    Practice obj;
+    int first = 3;
+    int second = 1;
+    int third = 9;
+    obj.sortDescending(first,second,third);
+    ASSERT_FALSE(second > third);
+    
+}
