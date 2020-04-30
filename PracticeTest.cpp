@@ -4,7 +4,6 @@
 
 #include <gtest/gtest.h>
 #include "Practice.h"
-#include <iostream>
 
 class PracticeTest : public ::testing::Test
 {
